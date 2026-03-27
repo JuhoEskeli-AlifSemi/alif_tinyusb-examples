@@ -8,6 +8,11 @@
  *
  */
 
+/* Workaround: AE302F80F55D5LE (E3) has no native SoC condition in the DFP,
+ * so csolution does not automatically generate this file. The E3 device has
+ * an identical memory layout to AE722F80F55D5LS (E7), so E7 values are used.
+ */
+
 #ifndef APP_MEM_REGIONS_H
 #define APP_MEM_REGIONS_H
 
